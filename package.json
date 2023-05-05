@@ -1,13 +1,13 @@
 {
   "name": "nuxt-app",
   "private": true,
+  "main": "dist-electron/main.js",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "main": "dist-electron/main.js"
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@types/node": "^18",

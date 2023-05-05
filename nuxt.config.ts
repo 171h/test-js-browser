@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   modules: ["nuxt-electron"],
   electron: {
-    include: ["electron"],
-    outDir: "dist_electron",
+    // include: ["electron"],
+    outDir: "dist-electron",
   },
 });
