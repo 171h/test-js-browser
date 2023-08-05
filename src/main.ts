@@ -1,7 +1,3 @@
-import path from 'pathe';
+// import './pathe/demo'
 
-try {
-  document.body.innerText = path.join('foo', 'bar');
-} catch (e) {
-  document.body.innerText = String(e);
-}
+import './fflate/demo'

@@ -12,6 +12,8 @@
     "vite": "^4.0.4"
   },
   "dependencies": {
+    "@171h/utils": "^0.4.4",
+    "fflate": "^0.8.0",
     "pathe": "^1.0.0"
   }
 }
